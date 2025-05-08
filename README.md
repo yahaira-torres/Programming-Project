@@ -11,5 +11,4 @@ Question 2: What was the highest anomaly score?
 Question 3: Where most attacks Blocked, Logged, or Ignored?
 
 Question 4: What Attack was the most common?
-
             The analysis revealed that Distributed Denial of Service (DDoS) attacks were the most prevalent type of attack within the dataset. This conclusion was derived using the command `df['Attack Type'].value_counts()`, which identifies and counts the occurrences of each unique value within the specified column, in this case, `'Attack Type'`. The results indicated that DDoS attacks had the highest frequency. To enhance the interpretability of this finding, the `matplotlib` library was utilized to generate a visual representation, providing a clear and concise depiction of the data distribution for the audience.
